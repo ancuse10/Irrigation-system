@@ -18,7 +18,7 @@
 #define SERIAL_DEBUG_BAUD    9600
 
 // Initialize ThingsBoard client
-WiFiClientSecure espClient;
+WiFiClient espClient;
 
 PubSubClient client(espClient);
 
